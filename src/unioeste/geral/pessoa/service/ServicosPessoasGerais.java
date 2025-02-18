@@ -27,4 +27,29 @@ public class ServicosPessoasGerais {
         return SexoDAO.selecionarTodosSexo();
     }
 
+    public static void main(String[] args) {
+        try {
+            System.out.println("Obtendo todos os DDDs...");
+            List<DDD> ddds = obterTodosDDD();
+            for (DDD ddd : ddds) {
+                System.out.println("DDD: " + ddd);
+            }
+
+            System.out.println("\nObtendo todos os DDIs...");
+            List<DDI> ddis = obterTodosDDI();
+            for (DDI ddi : ddis) {
+                System.out.println("DDI: " + ddi);
+            }
+
+            System.out.println("\nObtendo todos os Sexos...");
+            List<Sexo> sexos = obterTodosSexo();
+            for (Sexo sexo : sexos) {
+                System.out.println("Sexo: " + sexo);
+            }
+
+        } catch (Exception e) {
+            System.err.println("Erro ao obter dados: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }

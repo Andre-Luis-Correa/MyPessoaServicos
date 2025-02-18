@@ -3,9 +3,9 @@
     <output-path>$PROJECT_DIR$/out/artifacts/MyPessoaServicos_jar</output-path>
     <root id="archive" name="MyPessoaServicos.jar">
       <element id="module-output" name="MyPessoaServicos" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../MyEnderecoServicos/out/artifacts/MyEnderecoServicos_jar/MyEnderecoServicos.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../MyPersonBO/out/artifacts/MyPessoaBO_jar/MyPessoaBO.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../MyInfraAPI/out/artifacts/MyInfraAPI_jar/MyInfraAPI.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../MyPersonBO/out/artifacts/MyPessoaBO_jar/MyPessoaBO.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../MyEnderecoServicos/out/artifacts/MyEnderecoServicos_jar/MyEnderecoServicos.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
